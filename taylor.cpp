@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
   // initial condition
   for (int i = 0; i < numofnode; i++)
   {
-    if ((i >= 1) && (i <= 11))
+    if ((i >= 1) && (i <= 5))
     {
       f[0][i] = 1.0;
     }
